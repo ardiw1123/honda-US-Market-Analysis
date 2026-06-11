@@ -1,23 +1,14 @@
 # Honda US Market Analysis
 
-An end-to-end data analysis and interactive dashboard project exploring Honda vehicle sales patterns across the United States — covering pricing dynamics, consumer satisfaction, hybrid adoption trends, and geographic market distribution.
+An end-to-end data analysis and interactive dashboard project exploring Honda vehicle sales patterns across the United States covering pricing dynamics, consumer satisfaction, hybrid adoption trends, and geographic market distribution.
 
-> Built as a portfolio project targeting Business & Sales Analyst roles in the automotive industry.
+ Built as a portfolio project targeting Business & Sales Analyst roles in the automotive industry.
 
 ---
 
 ## Live Demo
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_red.svg)](https://your-app-link.streamlit.app)
-
-> Replace the link above after deploying to [Streamlit Community Cloud](https://streamlit.io/cloud)
-
----
-
-## Dashboard Preview
-
-> Add a screenshot of your dashboard here after deployment.  
-> `![Dashboard Preview](assets/preview.png)`
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_red.svg)](https://honda-marketus.streamlit.app)
 
 ---
 
@@ -39,7 +30,7 @@ honda-sales-analysis/
 
 | Attribute | Detail |
 |---|---|
-| Source | Honda vehicle listings — US market |
+| Source | Honda vehicle listings US market |
 | Records | 4,949 vehicles |
 | Year Range | 1981 – 2023 |
 | Features | 34 attributes |
@@ -55,10 +46,10 @@ honda-sales-analysis/
 ## Dashboard Pages
 
 ### 1. Executive Overview
-High-level summary of the entire dataset — listing volume by model family, condition breakdown, price distribution, and listing trends by model year.
+High-level summary of the entire dataset listing volume by model family, condition breakdown, price distribution, and listing trends by model year.
 
 ### 2. Pricing & Depreciation
-Filterable analysis of vehicle pricing by model, condition, and year range — including a depreciation curve (price vs. vehicle age) and a price-vs-mileage scatter for used inventory.
+Filterable analysis of vehicle pricing by model, condition, and year range including a depreciation curve (price vs. vehicle age) and a price-vs-mileage scatter for used inventory.
 
 ### 3. Consumer Satisfaction
 Radar chart comparison of 6 rating dimensions (Comfort, Interior Design, Performance, Value for Money, Exterior Styling, Reliability) across model families, with a value map plotting rating vs. average price.
@@ -98,7 +89,7 @@ US choropleth map switchable between average price, listing volume, average rati
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/your-username/honda-sales-analysis.git
+git clone https://github.com/ardiw1123/honda-US-Market-Analysis.git
 cd honda-sales-analysis
 ```
 
@@ -142,6 +133,4 @@ scipy>=1.11.0
 
 ## Author
 
-**Ardi**
-Information Systems — UPN "Veteran" Yogyakarta
-[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username)
+**Ardi Gunawan Pratama**
